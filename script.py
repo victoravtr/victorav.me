@@ -38,6 +38,10 @@ if __name__ == '__main__':
     # Get the repo data we have saved locally
     with open('lib/data/repos.json', 'r+', encoding='utf8') as reader:
         localRepoData = json.load(reader)
+    # remove repo "victorav.me" from both lists, if not there will be an infinite loop 
+    # where githubRepoDatais always different from localRepoData
+    githubRepoData = [repo for repo in githubRepoData if repo['name'] != 'victorav.me']
+    localRepoData = [repo for repo in localRepoData if repo['name'] != 'victorav.me']
     # If there are no changes, stop
     if githubRepoData == localRepoData:
         sys.exit(0)
