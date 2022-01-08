@@ -31,7 +31,7 @@ I’m Víctor, software developer and system administrator.
 
 📧 Email [victoravtr@gmail.com](mailto:victoravtr@gmail.com)
 
-<h2> Stuff I worked on last week  <img src = "https://media1.giphy.com/media/JZ40cnfnN11KycrvMF/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 70px> </h2>
+<h2> Stuff I worked on  <img src = "https://media1.giphy.com/media/JZ40cnfnN11KycrvMF/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 70px> </h2>
 <a href="https://github.com/victoravtr">
 <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=@victoravtr&compact=True"/>
 </a>
