@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@primer/octicons-react": "^15.2.0",
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.4.0",
+    "next": "^13.0.4",
+    "next-seo": "^4.28.1",
+    "package.json": "^0.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark": "^13.0.0",
+    "remark-code-frontmatter": "^1.0.0",
+    "remark-highlight.js": "^7.0.1",
+    "remark-html": "^13.0.2",
+    "styled-components": "^5.3.3",
+    "styled-normalize": "^8.0.7",
+    "twemoji": "^13.1.0",
+    "unist-util-visit": "^2.0.3"
+  }
+}

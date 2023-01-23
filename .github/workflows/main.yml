@@ -1,0 +1,28 @@
+name: Update data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with: 
+        python-version: 3.8
+    - name: Run the python script
+      run: |
+        pip install requests
+        python script.py
+    - name: Commit files
+      run: |
+        git config --local user.name  ${{ github.actor }}
+        git add -A
+        git diff --quiet && git diff --staged --quiet || git commit -am 'Data Updated'
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
