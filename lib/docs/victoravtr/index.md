@@ -6,7 +6,7 @@ I’m Víctor, software developer and system administrator.
 ## About Me
 
 - 🔭 I’m currently working on version 2.0 of my portfolio, working on personal projects, and messing around with AI 🤖
-- 🌱 I’m currently learning Flutter to develop mobile applications and improving my skills as a full-stack developer. 
+- 🌱 I'm currently learning Laravel, it was about time 😤, and improving my skills as a full-stack developer. 
 
 <h2> Skills <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 <a href= https://github.com/victoravtr?tab=repositories&q=&type=&language=python&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/python.svg'> </a>
